@@ -3,22 +3,19 @@
   "bugs": {
     "url": "https://github.com/falsecz/cson-config/issues"
   },
-  "dependencies": {
-    "coffee-script": "^1.9.0"
-  },
   "description": "Load config.cson to process.config",
   "directories": {
     "test": "test"
   },
   "license": "BSD",
-  "main": "index.coffee",
+  "main": "index.js",
   "name": "cson-config",
   "repository": {
     "type": "git",
     "url": "https://github.com/falsecz/cson-config.git"
   },
   "scripts": {
-    "test": "coffee test/index.coffee"
+    "test": "node test/index.js"
   },
   "version": "0.1.13"
 }
